@@ -4,8 +4,6 @@ RUn pip install protobuf==3.19.0
 RUN pip install opennmt-py==1.1.1
 RUN pip install scons
 ENV PATH=$PATH:"/home/ubuntu/.local/bin"
-COPY ./SConstruct_train /SConstruct_train
-COPY ./config.py /config.py
 COPY ./start.sh  /start.sh
 
 WORKDIR /
