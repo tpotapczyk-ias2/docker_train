@@ -1,4 +1,4 @@
-#!/bin/bahs
+#!/bin/bash
 
 if test -f "data/processed.txt"; then
 	        echo "Already preprocessed"
