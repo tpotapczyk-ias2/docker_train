@@ -2,6 +2,8 @@ README
 
 prerequisits:
 
+docker installed
+
 tokenized train and valid data in data folder:
 
 data/src_train_tokenized.txt
