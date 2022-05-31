@@ -1,3 +1,15 @@
 README
 
+prerequisits:
 
+tokenized train and valid data in data folder:
+
+data/src_train_tokenized.txt
+data/tgt_train_tokenized.txt
+data/src_valid_tokenized.txt
+data/tgt_valid_tokenized.txt
+
+example:
+
+
+run_docker.sh /home/ubuntu/futurismo/opennmt/scons-pipelines/hu_lstm/data
